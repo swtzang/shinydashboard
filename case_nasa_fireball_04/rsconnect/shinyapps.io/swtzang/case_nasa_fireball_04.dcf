@@ -1,0 +1,12 @@
+name: case_nasa_fireball_04
+title: case_nasa_fireball_04
+username:
+account: swtzang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 650003
+bundleId: 1819243
+url: https://swtzang.shinyapps.io/case_nasa_fireball_04/
+when: 1547704597.4508
+asMultiple: FALSE
+asStatic: FALSE
