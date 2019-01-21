@@ -17,6 +17,7 @@
 
 
 library(shiny)
+library(shinydashboard)
 
 header <- dashboardHeader(
   # Create a notification drop down menu

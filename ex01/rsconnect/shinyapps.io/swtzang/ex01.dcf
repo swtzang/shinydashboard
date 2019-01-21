@@ -1,0 +1,12 @@
+name: ex01
+title: ex01
+username:
+account: swtzang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 653089
+bundleId: 1824882
+url: https://swtzang.shinyapps.io/ex01/
+when: 1547963702.27034
+asMultiple: FALSE
+asStatic: FALSE
