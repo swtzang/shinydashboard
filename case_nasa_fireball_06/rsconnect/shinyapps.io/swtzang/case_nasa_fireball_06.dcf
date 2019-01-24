@@ -5,8 +5,8 @@ account: swtzang
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 650088
-bundleId: 1820056
+bundleId: 1834199
 url: https://swtzang.shinyapps.io/case_nasa_fireball_06/
-when: 1547736684.49771
+when: 1548338456.45601
 asMultiple: FALSE
 asStatic: FALSE

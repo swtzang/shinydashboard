@@ -12,7 +12,7 @@ library(shinydashboard)
 #install.packages("leaflet")
 library(leaflet)
 load(file="nasa_fireball.rda")
-
+#
 server <- function(input, output) {
   output$plot <- renderLeaflet({
     leaflet() %>%
