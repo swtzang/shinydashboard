@@ -19,13 +19,14 @@
 library(shiny)
 library(shinydashboard)
 #starwars_url = "http://s3.amazonaws.com/assets.datacamp.com/production/course_6225/datasets/starwars.csv"
+#data<-read.csv("~/shinydashboard/ex10/starwars_url.csv")
 
 server <- function(input, output, session) {
   reactive_starwars_data <- reactiveFileReader(
     intervalMillis = 1000,
     session = session,
-    filePath = "~/shinydashboard/ex10/starwars_url.csv",
-    #filePath = starwars_url,
+    #filePath = "~/shinydashboard/ex10/starwars_url.csv",
+    filePath = "starwars_url.csv",
     #readFunc = function(filePath) {read.csv(url(filePath))}
     readFunc = read.csv
   )
