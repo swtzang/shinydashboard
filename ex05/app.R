@@ -19,6 +19,7 @@
 
 
 library(shiny)
+library(shinydashboard)
 
 sidebar <- dashboardSidebar(
   sidebarMenu(

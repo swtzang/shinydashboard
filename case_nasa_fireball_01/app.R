@@ -22,8 +22,8 @@
 
 library(shiny)
 library(shinydashboard)
-
-load(file = "~/shinydashboard/nasa_fireball.rda")
+load(file = "nasa_fireball.rda")
+#load(file = "~/shinydashboard/nasa_fireball.rda")
 
 max_vel <- max(nasa_fireball$vel, na.rm=TRUE)
 
