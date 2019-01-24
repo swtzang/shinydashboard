@@ -21,6 +21,7 @@
 
 library(shiny)
 library(shinydashboard)
+load(file="nasa_fireball.rda")
 
 max_energy <- max(nasa_fireball$energy, na.rm=TRUE)
 max_impact_e<-max(nasa_fireball$impact_e, na.rm=TRUE)

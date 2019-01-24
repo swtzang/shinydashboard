@@ -9,6 +9,7 @@
 
 library(shiny)
 library(shinydashboard)
+load(file="nasa_fireball.rda")
 
 n_us <- sum(
   ifelse(

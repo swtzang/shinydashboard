@@ -28,7 +28,7 @@
 
 library(shiny)
 library(shinydashboard)
-
+load(file="nasa_fireball.rda")
 #load("~/shinydashboard/nasa_fireball.rda")
 
 n_us <- sum(
