@@ -22,8 +22,9 @@
 library(shiny)
 library(shinydashboard)
 
-
+load(file='nasa_fireball.rda')
 max_impact_e <- max(nasa_fireball$impact_e, na.rm=TRUE)
+max_vel <- max(nasa_fireball$vel, na.rm=TRUE)
 
 body <- dashboardBody(
   fluidRow(
